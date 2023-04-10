@@ -1,0 +1,133 @@
+*{ /*CSS Reset*/
+    margin: 1% auto 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #edefee;
+    font-family: 'Markazi Text', serif;
+    font-size: 100%;
+    margin: 1.5rem 5% 3rem;
+    min-width: 307px;
+}
+
+header > img {
+    display: block;
+    max-width: 100%;
+    min-width: 10rem;
+    height: auto;
+}
+
+nav ul {
+    background-color: #333333;
+    border-radius: 10px;
+    list-style: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    margin: auto;
+    padding: 0 1.5%;
+}
+
+nav li:hover {
+    background-color: #1a1a1a;
+}
+
+nav li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 2em;
+}
+
+article {
+    border-radius: 10px;
+}
+
+p {
+    font-size: 1em;
+}
+
+/* Style for the first article */
+#promotion {
+    background-color: #333333;
+    background-image: url("images/pasta-spaghetti.jpg"); /*Image by jcomp on Freepik*/
+    background-size: cover;
+    max-height: 10rem;
+
+    color: #ffffff;
+}
+
+#promotion h1{
+    font-size: 2em;
+    padding-top: 1%;
+    padding-left: 2%;
+}
+
+#promotion p {
+    padding: 0 50% 15% 2%;
+    min-width: 100%;
+}
+
+/* Styles for the secondary articles */
+#sub_articles {
+    display: flex;
+    gap: 10px;
+}
+
+#sub_articles article {
+    background-color: #f1d5ba;
+    padding: 2% 1%;
+}
+
+#sub_articles h2 {
+    font-size: 1.875em;
+    padding-left: 10%;
+}
+
+#sub_articles img {
+    display: block;
+    margin: 5% auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+#sub_articles h3 {
+    font-size: 1.5em;
+    padding-top: 15%;
+}
+
+#sub_articles a {
+    text-decoration: none;
+}
+#sub_articles a:hover {
+    text-decoration: underline;
+}
+
+#sub_articles ul {
+    text-indent: -0.4em;
+    padding: 5% 15%;
+}
+
+footer {
+    display: flex;
+}
+
+footer div {
+    flex: 1;
+}
+
+footer img {
+    max-width: 100%;
+    min-width: 3rem;
+    height: auto;
+}
+
+footer p {
+    border-top: 2px solid #333333;
+    border-radius: 3px;
+    text-align: end;
+}
